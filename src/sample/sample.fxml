@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+
+
+
+<GridPane alignment="center" hgap="10" styleClass="background" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="sample.Controller">
+    <children>
+        <Text fx:id="textField"  fill="WHITE" wrappingWidth="250.0" GridPane.columnSpan="4" GridPane.rowSpan="2">
+            <font>
+                <Font name="Segoe UI Bold" size="22.0" />
+            </font>
+        </Text>
+        <Button fx:id="clearButton" GridPane.columnIndex="0" GridPane.rowIndex="2">C</Button>
+        <Button fx:id="divideButton" GridPane.columnIndex="1" GridPane.rowIndex="2">/</Button>
+        <Button fx:id="multiplicationButton" GridPane.columnIndex="2" GridPane.rowIndex="2">*</Button>
+        <Button fx:id="backspaceButton" GridPane.columnIndex="3" GridPane.rowIndex="2">Back</Button>
+        <Button fx:id="7Button" GridPane.columnIndex="0" GridPane.rowIndex="3">7</Button>
+        <Button fx:id="8Button" GridPane.columnIndex="1" GridPane.rowIndex="3">8</Button>
+        <Button fx:id="9Button" GridPane.columnIndex="2" GridPane.rowIndex="3">9</Button>
+        <Button fx:id="minusButton" GridPane.columnIndex="3" GridPane.rowIndex="3">-</Button>
+        <Button fx:id="4Button" GridPane.columnIndex="0" GridPane.rowIndex="4">4</Button>
+        <Button fx:id="5Button" GridPane.columnIndex="1" GridPane.rowIndex="4">5</Button>
+        <Button fx:id="6Button" GridPane.columnIndex="2" GridPane.rowIndex="4">6</Button>
+        <Button fx:id="sumButton" GridPane.columnIndex="3" GridPane.rowIndex="4">+</Button>
+        <Button fx:id="1Button" GridPane.columnIndex="0" GridPane.rowIndex="5">1</Button>
+        <Button fx:id="2Button" GridPane.columnIndex="1" GridPane.rowIndex="5">2</Button>
+        <Button fx:id="3Button" GridPane.columnIndex="2" GridPane.rowIndex="5">3</Button>
+        <Button fx:id="parenthesisButton" GridPane.columnIndex="3" GridPane.rowIndex="5">()</Button>
+        <Button fx:id="0Button" GridPane.columnIndex="1" GridPane.rowIndex="6">0</Button>
+        <Button fx:id="commaButton" GridPane.columnIndex="2" GridPane.rowIndex="6">.</Button>
+        <Button fx:id="equalsButton" GridPane.columnIndex="3" GridPane.rowIndex="6">=</Button>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+    </GridPane>
